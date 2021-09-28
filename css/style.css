@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    text-align: center;
+    color: #40514E;
+    font-family: "Merriweather", serif;
+}
+
+h1{
+    font-size: 5.625em;
+    margin: 50px auto 0 auto;
+    line-height: 1;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2{
+    font-size:2.5em;
+    font-weight: normal;
+    font-family: "Montserrat", serif;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: "Montserrat", serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+    font-family: "Montserrat", serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    border-color:#EAF6F6;
+    border-width:6px;
+    width: 5%;
+    margin: 100px auto;
+}  
+
+p{
+    line-height: 2;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position:relative;
+    padding-top: 100px;
+}
+
+.mid-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+   background-color: #66BFBF;
+   padding: 50px 0 20px;
+}
+
+.skill-row{
+    width:60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.code-img{
+    float:left;
+    margin-right: 30px;
+}
+
+.french-fries-img{
+    float:right;
+    margin-left: 30px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:40px;
+}
+.bottom-cloud{
+    position:absolute;
+    left:250px;
+    bottom:300px;
+}
+
+.contact-message{
+    width:47%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+
+/*border: solid 10px;*/
+/*width:10%;
+    margin: 0 auto 0 auto;
+    is used as center does not hold when we specify width
+    */
+/*display:none;
+    display:inline;
+    display:block;
+    display:inline-block;
+    visibility:hidden;
+    are all there to help us define the scope of the element
+    content is everything!
+    <span></span> can be used inside <p> tag to make it inline and modify the ptoperties
+    <span><img><a> are all inline tags
+    order of html content comes from the code
+    children sit on parents
+    all html by default are static without css
+    position:relative will move it wrt to previous posn
+    position:absolute will make it move relative of its parent and not relative to any other elements
+    position:fixed will fixate it like a nav bar that we would like to be there even when we scroll
+    */
